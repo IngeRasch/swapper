@@ -1,0 +1,10 @@
+****************************************************************************************************
+****************************************************************************************************
+Known issues
+****************************************************************************************************
+****************************************************************************************************
+
+Issue 1: Token does not always swap token image when moving with rapid presses of the keyboard arrow keys.
+This seems to be an issue with Foundry VTT itself, and not the module.
+On testing, the moved tokens do not change rotation when moving "up" many times, and then moving
+"down" before all the queued "up-movements" have completed.

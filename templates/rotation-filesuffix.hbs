@@ -1,0 +1,50 @@
+<div class="standard-form RotationFilesuffixConfig" data-application-part="form">
+	<div class="form-fields flexcol">
+		<div class="form-group full-width">
+			<table class="form-table">
+				<thead>
+					<tr>
+						<th>{{localize "swapper.GameSettings.rotationFilesuffixMatrixMenu.Window.Rotation"}}</th>
+						<th>{{localize "swapper.GameSettings.rotationFilesuffixMatrixMenu.Window.Filesuffix"}}</th>
+						<th>{{localize "swapper.GameSettings.rotationFilesuffixMatrixMenu.Window.Remove"}}</th>
+					</tr>
+				</thead>
+				<tbody id="suffix-rows">
+					{{#each rotationFilesuffixMatrix}}
+					<tr>
+						<td>
+							<input type="text" name="rotation" value="{{this.rotation}}"
+							title="{{localize "swapper.GameSettings.rotationFilesuffixMatrixMenu.Window.RotationHint"}}" />
+						</td>
+						<td>
+						<input type="text" name="filesuffix" value="{{this.filesuffix}}"
+							title="{{localize "swapper.GameSettings.rotationFilesuffixMatrixMenu.Window.FilesuffixHint"}}" />
+						</td>
+						<td>
+							<button type="button" data-action="removeRow">
+							<i class="fas fa-minus"></i>
+							</button>
+						</td>
+					</tr>
+					{{/each}}
+				</tbody>
+			</table>
+		</div>
+		<div class="form-group full-width">
+			<button type="button" data-action="addRow">
+				<i class="fas fa-plus"></i>
+				<span>{{localize "swapper.GameSettings.rotationFilesuffixMatrixMenu.Window.ButtonAddRow"}}</span>
+			</button>
+		</div>
+	</div>
+	<footer class="form-footer" data-application-part="footer">
+		<button type="button" data-action="resetDefaults">
+			<i class="fa-solid fa-arrows-rotate"></i>
+			<span>{{localize "swapper.GameSettings.rotationFilesuffixMatrixMenu.Window.ButtonResetDefaults"}}</span>
+		</button>
+		<button type="submit">
+			<i class="fa-solid fa-floppy-disk"></i>
+			<span>{{localize "swapper.GameSettings.rotationFilesuffixMatrixMenu.Window.ButtonSave"}}</span>
+		</button>
+	</footer>
+</div>
