@@ -3,8 +3,8 @@
 	"title": "Swapper",
 	"description": "Swaps token images on rotation.",
 	"url": "https://github.com/IngeRasch/swapper",
-	"manifest": "https://github.com/IngeRasch/swapper/releases/latest/download/module.json",
-	"download": "https://github.com/IngeRasch/swapper/releases/latest/download/swapper.zip",
+	"manifest": "https://github.com/IngeRasch/swapper/releases/download/v14.1.0/module.json",
+	"download": "https://github.com/IngeRasch/swapper/releases/download/v14.1.0/swapper_v14.1.0.zip",
 	"authors": [
 		{
 			"name": "Rasch",
@@ -12,7 +12,7 @@
 			"url": "https://foundryvtt.com/community/ingerasch"
 		}
 	],
-	"version": "14.1.0",
+	"version": "14.0.1",
 	"compatibility": {
 		"minimum": "13",
 		"verified": "14"
