@@ -7,6 +7,6 @@ The module supports both global settings (shared by all tokens) and per‑token 
 
 With a simple naming convention and a few configuration clicks, your tokens become more dynamic, expressive, and immersive as they turn on the battlefield.
 
-The only restriction is that you image file names must end in some sort of suffix that denotes their facing, like character_North, character_South, character_East and character_West, etc.
+The only restriction is that your image file names must end in some sort of suffix that denotes their facing, like character_North, character_South, character_East and character_West, etc.
 
 Please see the wiki for instructions: https://github.com/IngeRasch/swapper/wiki
